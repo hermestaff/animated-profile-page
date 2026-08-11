@@ -76,3 +76,28 @@ body{
   transform: scale(1.2);
 }
 
+.card .social li a{
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+}
+
+.card .social li a:hover{
+  color: hsl(175, 90%, 73%);
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out 0s;
+}
+
+.text-skills{
+  text-align: center;
+  padding: 15px;
+}
+
+.skills{
+  text-align: left;
+  padding: 15px;
+}
+
