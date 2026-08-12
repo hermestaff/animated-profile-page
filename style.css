@@ -103,15 +103,23 @@ body{
 }
 
 .card .social-icons{
-  margin: 0;
+  width: 100%;
   padding: 0;
+  margin: 0;
   position: absolute;
-  justify-content: center;
-  transform: translateY(10px);
-  align-items: center;
-  background-color: hsl(175, 90%, 73%);
-  bottom:-100px;
+  bottom: -100px;
+  background-color: aqua;
   left: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.card:hover .social-icons{
+  bottom: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.card .social-icons li{
+  display: inline-block;
 }
 
 .card .social-icons li a{
